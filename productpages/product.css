@@ -1,0 +1,118 @@
+*{
+   margin: auto; 
+   padding: auto;
+}
+a{
+    text-decoration:none;
+}
+h1{
+    
+    margin-right:90vw;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 40px;
+    border-radius: 60px;
+    border: 3px black solid;
+    transition:0.5s;
+    color: black;
+    background-color: beige;
+}
+h1:hover{
+    color: rgb(6, 6, 7);
+    background-color: rgb(182, 173, 241);
+}
+.header{
+    text-align: center;
+    background: radial-gradient(#93a5cf,#e4efe9);
+}
+hr{
+    padding: 2px;
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main_d{
+    display:flex;
+}
+.description{
+    max-width: 700px;
+    font-size: 15px;
+    transition:0.7s;
+}
+.description:hover{
+    max-width:1080px;
+    color: rgb(0, 0, 0);
+    background-color: beige;
+    font-size: 25px;
+}
+
+.extra{
+    max-width: 300px;
+    font-size: 24px;
+    margin-left: 60px;
+}
+.description , .extra{
+    /* max-width: 700px; */
+    flex-basis: 50%;
+    border: 3px dotted black;
+    border-radius:30px;
+    /* font-size: 24px; */
+    font-family: monospace;
+}
+
+
+.price{
+    font-size: 29px;
+    font-family: monospace;
+    padding: 5px;
+}
+.btns{
+    /* display: inline-block; */
+    text-align: center;
+}
+button{
+    margin: 30px;
+    padding: 20px;
+    color: rgb(82, 157, 223);
+    font-size: 20px;
+    border: solid rgb(31, 177, 193) 5px;
+    border-radius: 40px;
+    background-color:black ;
+    transition: transform 0.8s;
+}
+
+button:hover{
+    color: black;
+    transform: translateY(-10px);
+    font-weight: bolder;
+    background-color: beige;
+}
+
+
+
+.hh2{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 54px;
+
+}
+.h_i1{
+    height: 60vh;
+    width: 500px;
+    padding: 30px;
+    /* border: 5px dotted black; */
+    background-color: rgb(137, 162, 188);
+    border-radius: 30px;
+}
+
+.img_1{
+    transition: 1s;
+}
+.img_1{
+    transform:translateZ(-20px);
+}
+
+/* .h_i1:hover{
+    transform:translateY(-100);
+} */
